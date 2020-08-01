@@ -1,0 +1,13 @@
+{
+  "roots": ["<rootDir>"],
+  "clearMocks": true,
+  "verbose": true,
+  "testMatch": ["<rootDir>/__tests__/**/*.js"],
+  "moduleFileExtensions": ["js", "jsx", "json", "node"],
+  "testEnvironment": "node",
+  "moduleNameMapper": {
+    "^@root(.*)$": "<rootDir>/$1",
+    "^@common(.*)$": "<rootDir>/src/common$1",
+    "^@weather(.*)$": "<rootDir>/src/weather$1"
+  }
+}
